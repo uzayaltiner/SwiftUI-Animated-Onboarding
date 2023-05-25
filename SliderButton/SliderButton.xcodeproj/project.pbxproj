@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		608DAD3C2A1F703700280F1D /* Slider_ButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608DAD3B2A1F703700280F1D /* Slider_ButtonApp.swift */; };
-		608DAD3E2A1F703700280F1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608DAD3D2A1F703700280F1D /* ContentView.swift */; };
-		608DAD402A1F703800280F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608DAD3F2A1F703800280F1D /* Assets.xcassets */; };
-		608DAD432A1F703800280F1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608DAD422A1F703800280F1D /* Preview Assets.xcassets */; };
+		6075BE1A2A1F73BA000AFA2D /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6075BE182A1F73BA000AFA2D /* chimeup.mp3 */; };
+		6075BE1B2A1F73BA000AFA2D /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6075BE192A1F73BA000AFA2D /* success.m4a */; };
+		60AFD7742A1F72F800B4594C /* SliderButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFD7732A1F72F800B4594C /* SliderButtonApp.swift */; };
+		60AFD7762A1F72F800B4594C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AFD7752A1F72F800B4594C /* ContentView.swift */; };
+		60AFD7782A1F72F800B4594C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AFD7772A1F72F800B4594C /* Assets.xcassets */; };
+		60AFD77B2A1F72F800B4594C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AFD77A2A1F72F800B4594C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		608DAD382A1F703700280F1D /* Slider Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		608DAD3B2A1F703700280F1D /* Slider_ButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_ButtonApp.swift; sourceTree = "<group>"; };
-		608DAD3D2A1F703700280F1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		608DAD3F2A1F703800280F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		608DAD422A1F703800280F1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6075BE182A1F73BA000AFA2D /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		6075BE192A1F73BA000AFA2D /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		60AFD7702A1F72F800B4594C /* SliderButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AFD7732A1F72F800B4594C /* SliderButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderButtonApp.swift; sourceTree = "<group>"; };
+		60AFD7752A1F72F800B4594C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60AFD7772A1F72F800B4594C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60AFD77A2A1F72F800B4594C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		608DAD352A1F703700280F1D /* Frameworks */ = {
+		60AFD76D2A1F72F800B4594C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +36,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		608DAD2F2A1F703700280F1D = {
+		6075BE1C2A1F73E2000AFA2D /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				608DAD3A2A1F703700280F1D /* Slider Button */,
-				608DAD392A1F703700280F1D /* Products */,
+				6075BE182A1F73BA000AFA2D /* chimeup.mp3 */,
+				6075BE192A1F73BA000AFA2D /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		60AFD7672A1F72F800B4594C = {
+			isa = PBXGroup;
+			children = (
+				60AFD7722A1F72F800B4594C /* SliderButton */,
+				60AFD7712A1F72F800B4594C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		608DAD392A1F703700280F1D /* Products */ = {
+		60AFD7712A1F72F800B4594C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				608DAD382A1F703700280F1D /* Slider Button.app */,
+				60AFD7702A1F72F800B4594C /* SliderButton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		608DAD3A2A1F703700280F1D /* Slider Button */ = {
+		60AFD7722A1F72F800B4594C /* SliderButton */ = {
 			isa = PBXGroup;
 			children = (
-				608DAD3B2A1F703700280F1D /* Slider_ButtonApp.swift */,
-				608DAD3D2A1F703700280F1D /* ContentView.swift */,
-				608DAD3F2A1F703800280F1D /* Assets.xcassets */,
-				608DAD412A1F703800280F1D /* Preview Content */,
+				60AFD7732A1F72F800B4594C /* SliderButtonApp.swift */,
+				60AFD7752A1F72F800B4594C /* ContentView.swift */,
+				60AFD7772A1F72F800B4594C /* Assets.xcassets */,
+				6075BE1C2A1F73E2000AFA2D /* Sounds */,
+				60AFD7792A1F72F800B4594C /* Preview Content */,
 			);
-			path = "Slider Button";
+			path = SliderButton;
 			sourceTree = "<group>";
 		};
-		608DAD412A1F703800280F1D /* Preview Content */ = {
+		60AFD7792A1F72F800B4594C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				608DAD422A1F703800280F1D /* Preview Assets.xcassets */,
+				60AFD77A2A1F72F800B4594C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +84,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		608DAD372A1F703700280F1D /* Slider Button */ = {
+		60AFD76F2A1F72F800B4594C /* SliderButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 608DAD462A1F703800280F1D /* Build configuration list for PBXNativeTarget "Slider Button" */;
+			buildConfigurationList = 60AFD77E2A1F72F800B4594C /* Build configuration list for PBXNativeTarget "SliderButton" */;
 			buildPhases = (
-				608DAD342A1F703700280F1D /* Sources */,
-				608DAD352A1F703700280F1D /* Frameworks */,
-				608DAD362A1F703700280F1D /* Resources */,
+				60AFD76C2A1F72F800B4594C /* Sources */,
+				60AFD76D2A1F72F800B4594C /* Frameworks */,
+				60AFD76E2A1F72F800B4594C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Slider Button";
-			productName = "Slider Button";
-			productReference = 608DAD382A1F703700280F1D /* Slider Button.app */;
+			name = SliderButton;
+			productName = SliderButton;
+			productReference = 60AFD7702A1F72F800B4594C /* SliderButton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		608DAD302A1F703700280F1D /* Project object */ = {
+		60AFD7682A1F72F800B4594C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					608DAD372A1F703700280F1D = {
+					60AFD76F2A1F72F800B4594C = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 608DAD332A1F703700280F1D /* Build configuration list for PBXProject "Slider Button" */;
+			buildConfigurationList = 60AFD76B2A1F72F800B4594C /* Build configuration list for PBXProject "SliderButton" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +124,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 608DAD2F2A1F703700280F1D;
-			productRefGroup = 608DAD392A1F703700280F1D /* Products */;
+			mainGroup = 60AFD7672A1F72F800B4594C;
+			productRefGroup = 60AFD7712A1F72F800B4594C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				608DAD372A1F703700280F1D /* Slider Button */,
+				60AFD76F2A1F72F800B4594C /* SliderButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		608DAD362A1F703700280F1D /* Resources */ = {
+		60AFD76E2A1F72F800B4594C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				608DAD432A1F703800280F1D /* Preview Assets.xcassets in Resources */,
-				608DAD402A1F703800280F1D /* Assets.xcassets in Resources */,
+				6075BE1B2A1F73BA000AFA2D /* success.m4a in Resources */,
+				6075BE1A2A1F73BA000AFA2D /* chimeup.mp3 in Resources */,
+				60AFD77B2A1F72F800B4594C /* Preview Assets.xcassets in Resources */,
+				60AFD7782A1F72F800B4594C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		608DAD342A1F703700280F1D /* Sources */ = {
+		60AFD76C2A1F72F800B4594C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				608DAD3E2A1F703700280F1D /* ContentView.swift in Sources */,
-				608DAD3C2A1F703700280F1D /* Slider_ButtonApp.swift in Sources */,
+				60AFD7762A1F72F800B4594C /* ContentView.swift in Sources */,
+				60AFD7742A1F72F800B4594C /* SliderButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		608DAD442A1F703800280F1D /* Debug */ = {
+		60AFD77C2A1F72F800B4594C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		608DAD452A1F703800280F1D /* Release */ = {
+		60AFD77D2A1F72F800B4594C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +275,14 @@
 			};
 			name = Release;
 		};
-		608DAD472A1F703800280F1D /* Debug */ = {
+		60AFD77F2A1F72F800B4594C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Slider Button/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SliderButton/Preview Content\"";
 				DEVELOPMENT_TEAM = 94QU8AXTK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uzayaltiner.Slider-Button";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzayaltiner.SliderButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +304,14 @@
 			};
 			name = Debug;
 		};
-		608DAD482A1F703800280F1D /* Release */ = {
+		60AFD7802A1F72F800B4594C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Slider Button/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SliderButton/Preview Content\"";
 				DEVELOPMENT_TEAM = 94QU8AXTK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uzayaltiner.Slider-Button";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzayaltiner.SliderButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		608DAD332A1F703700280F1D /* Build configuration list for PBXProject "Slider Button" */ = {
+		60AFD76B2A1F72F800B4594C /* Build configuration list for PBXProject "SliderButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				608DAD442A1F703800280F1D /* Debug */,
-				608DAD452A1F703800280F1D /* Release */,
+				60AFD77C2A1F72F800B4594C /* Debug */,
+				60AFD77D2A1F72F800B4594C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		608DAD462A1F703800280F1D /* Build configuration list for PBXNativeTarget "Slider Button" */ = {
+		60AFD77E2A1F72F800B4594C /* Build configuration list for PBXNativeTarget "SliderButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				608DAD472A1F703800280F1D /* Debug */,
-				608DAD482A1F703800280F1D /* Release */,
+				60AFD77F2A1F72F800B4594C /* Debug */,
+				60AFD7802A1F72F800B4594C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 608DAD302A1F703700280F1D /* Project object */;
+	rootObject = 60AFD7682A1F72F800B4594C /* Project object */;
 }

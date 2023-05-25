@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Slider Button
+//  SliderButton
 //
 //  Created by Uzay Altıner on 25.05.2023.
 //
