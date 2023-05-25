@@ -14,10 +14,14 @@ struct HomeView: View {
             // MARK: - HEADER
 
             Spacer()
-            Image("character-2")
-                .resizable()
-                .scaledToFit()
-                .padding()
+            ZStack {
+                CircleGroupView(shapeColor: .gray, shapeOpacity: 0.1)
+
+                Image("character-2")
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+            }
 
             // MARK: - CENTER
 
@@ -29,9 +33,9 @@ struct HomeView: View {
                 .padding()
 
             // MARK: - FOOTER
-             
+
             Spacer()
-            
+
             Button {
                 isOnboardingViewActivate = true
             } label: {
