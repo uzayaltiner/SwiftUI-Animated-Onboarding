@@ -41,6 +41,9 @@ struct HomeView: View {
                     .font(.system(.title3, design: .rounded))
                     .fontWeight(.bold)
             }
+            .buttonStyle(.borderedProminent)
+            .buttonBorderShape(.capsule)
+            .controlSize(.large)
         }
     }
 }
